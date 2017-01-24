@@ -1,3 +1,12 @@
+/*
+Legenda
+- PUZZLE.Constants
+- PUZZLE.Main
+- PUZZLE.Animate
+- PUZZLE.Controls
+- PUZZLE.Pieces
+- PUZZLE.Score
+*/
 var PUZZLE = {};
 //______________________________________//
 //__________Constants___________________//
@@ -519,7 +528,6 @@ PUZZLE.Pieces = function(){
 		init 	: _init
 	}
 }();
-
 //______________________________________//
 //__________Score_______________________//
 //______________________________________//
