@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- Default -->
+		<title>WJ Straver | Sliding Puzzle</title>
+		<meta name="keywords" content="WJ Straver, Sliding Puzzle, Puzzle"/>
+		<meta name="author" content="WJ Straver"/>
+		<meta name="description" content="A simple puzzle in which you have to slide the pieces to complete the picture. Move the pieces by using the Arrow Keys, WASD, or clicking on a piece next to the empty spot."/>
+		<link rel="canonical" href="https://www.wjstraver.com/sliding-puzzle" />
+
+		<!-- Page Settings -->
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0">
+		<!-- <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?v=2"> -->
+
+		<!-- Facebook -->
+		<!-- <meta property="og:app_id" content=""/> -->
+		<meta property="og:site_name" content="WJ Straver | Sliding Puzzle"/>
+		<meta property="og:title" content="Sliding Puzzle"/>
+		<meta property="og:type" content="website"/>
+		<meta property="og:url" content="https://www.wjstraver.com/sliding-puzzle"/>
+		<meta property="og:image" content=""/>
+		<meta property="og:description" content="A simple puzzle in which you have to slide the pieces to complete the picture. Move the pieces by using the Arrow Keys, WASD, or clicking on a piece next to the empty spot."/>
+
+		<!-- Twitter -->
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:title" content="Sliding Puzzle">
+		<meta name="twitter:description" content="A simple puzzle in which you have to slide the pieces to complete the picture. Move the pieces by using the Arrow Keys, WASD, or clicking on a piece next to the empty spot.">
+		<meta name="twitter:url" content="https://www.wjstraver.com/sliding-puzzle">
+		<meta name="twitter:image" content="">
+		<meta name="twitter:site" content="@wjstraver">
+		<meta name="twitter:creator" content="@wjstraver">
+
+		<!-- Style -->
+		<link rel="stylesheet" type="text/css" href="style/normalize.css">
+		<link rel="stylesheet" type="text/css" href="style/main.css">
+
+		<!-- Scripts -->
+		<script type="text/javascript" charset="UTF-8" src="js/TweenMax.min.js"></script>
+		<script type="text/javascript" charset="UTF-8" src="js/SimpleDebug.js"></script>
+		<script type="text/javascript" charset="UTF-8" src="js/puzzle.js"></script>
+	</head>
+	<body>
+
+		<div id="application">
+			<header class="header">
+				<div class="content">
+					<h1>Sliding Puzzle</h1>
+				</div>
+			</header>
+			<main class="main">
+				<div class="content">
+					<h2>A simple puzzle in which you have to slide the pieces to complete the picture.</h2>
+					<p>Move the pieces by using the Arrow Keys, WASD, or clicking on a piece next to the empty spot. Scource code of this puzzle can be found <a href="https://github.com/wjstraver/sliding-puzzle" target="_blank">here</a>.</p>
+					<!-- Explaination here incl. url to github-->
+
+					<div class="puzzle-area">
+						<div class="score-row">
+							<p>Score:&nbsp;<span id="playerScore">0</span></p>
+						</div>
+						<div id="puzzle">
+							<div id="puzzleImage"></div>
+							<div id="puzzleInner">
+								<div class="piece" data-id="1">
+									<span class="id">1</span>
+								</div>
+							</div>
+							<div id="puzzleOverlay"></div>
+						</div>
+
+						<div class="button-row"><!--
+						 --><button id="startBtn">Start</button><!--
+						 --><button id="resetBtn">Reset</button>
+						</div>
+					</div>
+				</div>
+			</main>
+			<footer class="footer">
+				<div class="content">
+					<p>
+						<span class="name">WJ Straver</span><!-- 
+					 --><span class="links"><!-- 
+					 --><a class="link-twitter" href="https://www.twitter.com/wjstraver" target="_blank" title="Twitter"></a><!--
+					 --><a class="link-facebook" href="https://www.facebook.com/willemjan.straver" target="_blank" title="Facebook"></a><!--
+					 --><a class="link-github" href="https://github.com/wjstraver" target="_blank" title="GitHub"></a><!--
+					 --></span>
+					</p>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
